@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto Slab', serif;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section h1 {
+  margin: 1rem;
+  text-decoration: underline;
+}
+
+.game-content {
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  
+}
+
+.cell {
+  width: 7rem;
+  height: 7rem;
+  border: 2px solid black;
+  cursor:crosshair;
+  position: relative;
+}
+
+.score div{
+  text-align: center;
+  font-size: 2rem;
+}
+
+button {
+  font-family: inherit;
+  font-size: 1.5rem;
+  margin: 1rem;
+  padding-inline: 2rem;
+  padding-block: .5rem;
+  background-color: bisque;
+  border: 3px solid black;
+  cursor: pointer;
+}
+
+.taken {
+  font-size: 5rem;
+  text-align: center;
+}
+
+.taken i {
+  pointer-events: none;
+}
