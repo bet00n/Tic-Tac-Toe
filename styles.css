@@ -41,6 +41,10 @@ section h1 {
   position: relative;
 }
 
+.won {
+  background-color: aquamarine;
+}
+
 .score div{
   text-align: center;
   font-size: 2rem;
@@ -55,6 +59,10 @@ button {
   background-color: bisque;
   border: 3px solid black;
   cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.2);
 }
 
 .taken {
